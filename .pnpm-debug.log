@@ -1,0 +1,14 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_NO_IMPORTER_MANIFEST_FOUND",
+    "err": {
+      "name": "pnpm",
+      "message": "No package.json (or package.yaml, or package.json5) was found in \"/Users/christianrebelsky/Repos/ttm-4-astro\".",
+      "code": "ERR_PNPM_NO_IMPORTER_MANIFEST_FOUND",
+      "stack": "pnpm: No package.json (or package.yaml, or package.json5) was found in \"/Users/christianrebelsky/Repos/ttm-4-astro\".\n    at readProjectManifest (/Users/christianrebelsky/.node/corepack/pnpm/6.32.21/dist/pnpm.cjs:19837:13)\n    at async Object.readProjectManifestOnly (/Users/christianrebelsky/.node/corepack/pnpm/6.32.21/dist/pnpm.cjs:19841:28)\n    at async readProjectManifestOnly (/Users/christianrebelsky/.node/corepack/pnpm/6.32.21/dist/pnpm.cjs:43910:24)\n    at async Object.handler (/Users/christianrebelsky/.node/corepack/pnpm/6.32.21/dist/pnpm.cjs:179461:24)\n    at async /Users/christianrebelsky/.node/corepack/pnpm/6.32.21/dist/pnpm.cjs:185958:21\n    at async run (/Users/christianrebelsky/.node/corepack/pnpm/6.32.21/dist/pnpm.cjs:185932:43)\n    at async runPnpm (/Users/christianrebelsky/.node/corepack/pnpm/6.32.21/dist/pnpm.cjs:186151:5)\n    at async /Users/christianrebelsky/.node/corepack/pnpm/6.32.21/dist/pnpm.cjs:186143:7"
+    }
+  }
+}
